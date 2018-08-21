@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ru.ealone.gradle.plugins</groupId>
+  <artifactId>version-info</artifactId>
+  <version>1.1.0</version>
+  <name>VersionInfo</name>
+  <description>Generate version from version.properties file</description>
+  <url>https://github.com/EAlOne/version-info</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ealone</id>
+      <name>Evgeniy Alexandrovich</name>
+      <email>evgeniy.ea@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/EAlOne/version-info</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains</groupId>
+      <artifactId>annotations</artifactId>
+      <version>16.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
